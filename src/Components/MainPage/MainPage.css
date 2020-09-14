@@ -1,0 +1,32 @@
+@media only screen and (min-width: 600px) {
+  .mainpage > h2 {
+    margin: 50px 0;
+    margin-left: 30%;
+    letter-spacing: 1px;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .mainpage > p {
+    margin-left: 70%;
+    margin-top: -60px;
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mainpage > h2 {
+    margin-left: 20px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .mainpage > p {
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
