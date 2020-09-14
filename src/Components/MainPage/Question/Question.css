@@ -93,3 +93,16 @@ a {
   margin-top: 10px;
   margin-left: -10px;
 }
+
+.tags {
+  display: flex;
+  margin-right: 5px;
+  background-color: rgb(226, 225, 225);
+  padding: 3px 10px;
+}
+
+.question__tags {
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+}
