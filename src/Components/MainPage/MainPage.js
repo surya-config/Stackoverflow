@@ -31,6 +31,7 @@ function MainPage() {
             link={item.owner.link}
             viewCount={item.view_count}
             pageLink={item.link}
+            tags={item.tags}
           />
         </div>
       ))}
@@ -39,3 +40,4 @@ function MainPage() {
 }
 
 export default MainPage;
+
