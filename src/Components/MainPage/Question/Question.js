@@ -10,8 +10,10 @@ function Question({
   link,
   viewCount,
   pageLink,
+  tags,
 }) {
   var d = new Date(CreatedDate);
+
   return (
     <div className="question">
       <div className="question__left">
@@ -27,15 +29,18 @@ function Question({
         <a href={pageLink}>
           <h4>{title}</h4>
         </a>
+        <div className="question__tags">
+          {tags.map((t) => (
+            <div className="tags">
+              <p>{t}</p>
+            </div>
+          ))}
+        </div>
       </div>
       <div className="question__rightInfo">
         <p>asked {d.toLocaleString()}</p>
         <div className="question__userInfo">
-          <img
-            className="profile__picture"
-            src={profileImage}
-            alt=''
-          />
+          <img className="profile__picture" src={profileImage} alt="" />
           <a href={link}>
             <p>{displayName}</p>
           </a>
